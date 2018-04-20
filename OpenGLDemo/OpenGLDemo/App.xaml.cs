@@ -13,7 +13,8 @@ namespace OpenGLDemo
 		{
 			InitializeComponent();
 
-			MainPage = new OpenGLDemo.MainPage();
+            //MainPage = new OpenGLDemo.MainPage();
+            MainPage = new NavigationPage(new OpenGLDemo.MainPage());
 		}
 
 		protected override void OnStart ()

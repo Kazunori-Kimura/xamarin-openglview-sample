@@ -4,8 +4,10 @@
              xmlns:local="clr-namespace:OpenGLDemo"
              x:Class="OpenGLDemo.MainPage">
 
-	<Label Text="Welcome to Xamarin.Forms!" 
-           VerticalOptions="Center" 
-           HorizontalOptions="Center" />
+	<Button 
+        x:Name="PushOpenGLView"
+        Text="Show OpenGL View" 
+        VerticalOptions="Center" 
+        HorizontalOptions="Center" />
 
 </ContentPage>

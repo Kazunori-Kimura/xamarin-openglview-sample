@@ -12,6 +12,12 @@ namespace OpenGLDemo
 		public MainPage()
 		{
 			InitializeComponent();
+            Title = "main";
+
+            PushOpenGLView.Clicked += async (s, a) =>
+            {
+                await Navigation.PushAsync(new OpenGLPage());
+            };
 		}
 	}
 }
